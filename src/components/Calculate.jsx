@@ -1,6 +1,11 @@
 export default function Calculate()
 {
     return(
-        <p>Calculate</p>
+        <div>
+        <form action="">
+            กรอกข้อมูล :
+            <input type="text" />
+        </form>
+        </div>
     )
 }

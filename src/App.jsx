@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import mainpic from "./assets/mainpic.png"
 
 
+
 export default function App() {
   return (
       <>
