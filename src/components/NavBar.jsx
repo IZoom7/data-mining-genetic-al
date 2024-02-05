@@ -16,6 +16,9 @@ function NavBar() {
           <ul className="ml-8">
             <Link to="/Calculate">การคำนวณ</Link>
           </ul>
+          <ul className="ml-8">
+            <Link to="/Result">ผลลัพธ์</Link>
+          </ul>
         </div>
       </div>
     </div>
