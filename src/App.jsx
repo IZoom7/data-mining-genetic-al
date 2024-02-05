@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import TableDataSetting from "./components/TableDataSetting";
 import NavBar from "./components/NavBar";
 import Calculate from "./components/Calculate";
@@ -19,7 +18,6 @@ export default function App() {
           <Route path="/Calculate" element={<Calculate/>}></Route>
         </Routes>
       </BrowserRouter>
-
       </>
       
     )

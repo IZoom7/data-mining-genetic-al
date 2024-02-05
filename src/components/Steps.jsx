@@ -1,4 +1,5 @@
-export default function Steps() {
+export default function Steps(props) {
+
   return (
     <div>
       <div className="pt-10">
@@ -31,7 +32,7 @@ export default function Steps() {
                       Step 2
                     </span>
                     <span className="text-sm font-medium">
-                      เลือกวิธีการคำนวณ
+                      กำหนดค่าคงที่
                     </span>
                   </a>
                 </li>
