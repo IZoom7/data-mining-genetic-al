@@ -1,6 +1,6 @@
 // 1. กำหนดค่าคงที่
 const POPULATION_SIZE = 24;  //จำนวนของโปรแกรมเมอร์ที่สร้างขึ้นในแต่ละรุ่น (generation) ของ genetic algorithm. ในที่นี้, มีโปรแกรมเมอร์ทั้งหมด 24 คนในแต่ละรุ่น.
-const MAX_GENERATIONS = 1; //จำนวนของรุ่นทั้งหมดที่ genetic algorithm จะทำงาน. ในที่นี้, มีรุ่นทั้งหมด 100 รุ่น.
+const MAX_GENERATIONS = 10; //จำนวนของรุ่นทั้งหมดที่ genetic algorithm จะทำงาน. ในที่นี้, มีรุ่นทั้งหมด 10 รุ่น.
 const MUTATION_RATE = 0.1; //ความน่าจะเป็นที่โปรแกรมเมอร์แต่ละคนจะถูกเปลี่ยนแปลงค่าของความสามารถ (frameworkSkill และ databaseSkill)
 
 // 2. กำหนดข้อมูลเริ่มต้น

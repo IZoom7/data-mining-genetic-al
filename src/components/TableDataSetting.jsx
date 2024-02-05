@@ -65,6 +65,7 @@ export default function TableDataSetting() {
       //text: "สามารถตรวจสอบใน console ได้เลยจ้า",
       icon: "success",
       confirmButtonText: '<a href="/Calculate">ถัดไป</a>',
+      allowOutsideClick: false,
     })
   };
 
